@@ -45,6 +45,8 @@ Route::get('/profile', function () {
     return view('profile');
 });
 
-
+Route::get("henlow", function(){
+    return "<h1>Henlow</h1>";
+});
 
 
